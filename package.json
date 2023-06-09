@@ -1,0 +1,33 @@
+{
+  "name": "next-postcss-zustand-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@csstools/postcss-global-data": "^1.0.3",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "cssnano": "^6.0.0",
+    "postcss": "^8.4.24",
+    "postcss-atroot": "^0.2.3",
+    "postcss-calc": "^9.0.1",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-functions": "^4.0.2",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^8.4.1",
+    "postcss-sort-media-queries": "^5.1.0",
+    "typescript": "5.0.4"
+  }
+}
